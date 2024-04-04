@@ -67,3 +67,9 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+/* Add this CSS to your existing styles.css */
+.highlight {
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #ff6f00; /* Vibrant orange color */
+}
+
