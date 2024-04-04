@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -36,6 +36,7 @@ nav a:hover {
 
 .container {
     padding: 20px;
+    text-align: center;
 }
 
 .container:nth-child(odd) {
@@ -56,7 +57,7 @@ nav a:hover {
 }
 
 .contact-link {
-    color: white;
+    color: #ff9800; /* Changed link color from blue to orange */
     text-decoration: none;
 }
 
