@@ -35,14 +35,15 @@
         .container {
             padding: 20px;
         }
-        .skills {
+        .skills, .certifications, .experience {
             margin-top: 30px;
         }
-        .skill {
-            margin-bottom: 20px;
+        .experience ul {
+            list-style-type: none;
+            padding: 0;
         }
-        .skill h2 {
-            margin-top: 0;
+        .experience li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -53,13 +54,15 @@
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
     </nav>
     <div class="container" id="about">
         <h2>About Me</h2>
-        <p>Hello, I'm Azhar Jaman, an Oracle Technical Consultant with expertise in SQL, PL/SQL, Python, Oracle Databases, and Oracle APEX. I'm passionate about leveraging technology to solve complex problems and optimize business processes.</p>
+        <p>B. Tech Computer Science and Engineering graduate with a strong foundation in programming, algorithm design, DBMS, and Data structure. Proficient in diverse programming languages, including C, C++, SQL, PL/SQL, and Python with professional experience in Oracle ERP technical support. Eager to contribute technical expertise and innovative solutions to a dynamic team in a challenging professional environment.</p>
     </div>
-    <div class="container skills" id="skills">
+    <div class="container" id="skills">
         <h2>Skills</h2>
         <div class="skill">
             <h3>Oracle Technical Consultant</h3>
@@ -80,6 +83,41 @@
         <div class="skill">
             <h3>Oracle APEX</h3>
             <p>Familiarity with Oracle Application Express (APEX) for rapid web application development and deployment.</p>
+        </div>
+    </div>
+    <div class="container" id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <ul>
+                <li>IBM Coursera - Introduction to Software Engineering - Feb 22, 2024</li>
+                <li>IBM Coursera - Hands-on Introduction to Linux Commands and Shell Scripting - Mar 6, 2024</li>
+                <li>IBM Coursera - Getting Started with Git and GitHub - Mar 17, 2024</li>
+                <li>IBM Coursera - Python for AI, Data Science, and development</li>
+                <li>Oracle Technical modules</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container" id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <ul>
+                <li>
+                    <strong>Oracle Technical Consultant</strong> at Exacore IT Solutions
+                    <ul>
+                        <li>Work Period: July 2023 - January 2024</li>
+                        <li>
+                            Description:
+                            <ul>
+                                <li>Created and implemented a comprehensive financial reporting system using SQL for a client, demonstrating proficiency in database management and delivering tailored solutions to meet specific business needs.</li>
+                                <li>Experience in development and customization of various kinds of technical objects related to RICE component like Reports, Forms, Conversion, Form Personalization, XML Publisher, BI Publisher, and Workflow.</li>
+                                <li>Good expertise in developing, modifying, and debugging custom developed Oracle 10g Forms. Extensively worked in Oracle Applications Supply Chain Management and Finance modules.</li>
+                                <li>Good skill set in developing custom PL/SQL programs using Packages, Procedures, Functions, Cursors, and Exceptions with different logics.</li>
+                                <li>Proficient in utilizing Oracle APEX software for efficient application development and customization. Utilized Oracle APEX to design and deploy scalable and intuitive applications, meeting diverse business requirements and driving process improvements using RESTful services.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="container" id="contact">
