@@ -78,4 +78,21 @@ footer {
     margin-left: 5px; /* Add spacing between the text and logos */
     vertical-align: middle; /* Align the image vertically */
 }
+.badge-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.badge-container a {
+    margin: 10px;
+}
+
+.badge-container img {
+    width: 150px; /* Adjust the size of the badges as needed */
+    height: auto;
+    border: 2px solid #fff; /* Optional: Add a border around the badges */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
 
