@@ -94,6 +94,6 @@ footer {
     height: auto;
     border: 2px solid #fff; /* Optional: Add a border around the badges */
     border-radius: 5px; /* Optional: Add border-radius for rounded corners */
-    display: block;
+   /* display: block; */
 }
 
